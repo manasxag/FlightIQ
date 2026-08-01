@@ -1,0 +1,59 @@
+{
+  "version": "rf-20260729-061657",
+  "algorithm": "Random Forest Classifier + Regressor",
+  "accuracy": 0.8493,
+  "precision": 0.8279,
+  "recall": 0.7709,
+  "f1Score": 0.7984,
+  "meanAbsoluteErrorMinutes": 5.22,
+  "confusionMatrix": [
+    [
+      1653,
+      186
+    ],
+    [
+      266,
+      895
+    ]
+  ],
+  "featureImportance": [
+    {
+      "feature": "weather",
+      "value": 0.620086
+    },
+    {
+      "feature": "departure_hour",
+      "value": 0.111417
+    },
+    {
+      "feature": "airline",
+      "value": 0.085571
+    },
+    {
+      "feature": "month",
+      "value": 0.046852
+    },
+    {
+      "feature": "origin",
+      "value": 0.044695
+    },
+    {
+      "feature": "distance",
+      "value": 0.036406
+    },
+    {
+      "feature": "day_of_week",
+      "value": 0.033374
+    },
+    {
+      "feature": "destination",
+      "value": 0.0216
+    }
+  ],
+  "trainingRows": 12000,
+  "testRows": 3000,
+  "trainedAt": "2026-07-29T06:16:57.540049+00:00",
+  "dataset": "flights_demo.csv",
+  "datasetType": "deterministic synthetic demonstration data",
+  "scikitLearnVersion": "1.9.0"
+}
